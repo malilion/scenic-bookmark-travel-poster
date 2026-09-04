@@ -71,9 +71,25 @@ scenic-bookmark-travel-poster/
 ├── prompt.md
 ├── examples.md
 └── assets/
+    ├── moss-stream-example.png
+    ├── otaru-canal-close-example.png
+    ├── otaru-canal-wide-example.png
     ├── otaru-example.png
-    └── moss-stream-example.png
+    ├── sapporo-example.png
+    └── woodland-pond-example.png
 ```
+
+## Gallery
+
+These examples use the same left-scenery / right-bookmark system and show how the skill adapts the bookmark artwork to different landmarks and natural scenes.
+
+| Otaru Canal | Otaru Canal — wide view | Sapporo TV Tower |
+| --- | --- | --- |
+| <img src="assets/otaru-example.png" alt="Otaru Canal travel poster" width="180"> | <img src="assets/otaru-canal-wide-example.png" alt="Otaru Canal wide-view travel poster" width="180"> | <img src="assets/sapporo-example.png" alt="Sapporo TV Tower travel poster" width="180"> |
+
+| Otaru Canal — close view | Moss Stream | Woodland Pond |
+| --- | --- | --- |
+| <img src="assets/otaru-canal-close-example.png" alt="Otaru Canal close-view travel poster" width="180"> | <img src="assets/moss-stream-example.png" alt="Moss Stream travel poster" width="180"> | <img src="assets/woodland-pond-example.png" alt="Woodland pond travel poster" width="180"> |
 
 ## Recommended usage
 
