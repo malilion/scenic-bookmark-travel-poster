@@ -180,3 +180,44 @@ Right side: create one newly designed premium metal bookmark based on the same O
 
 Use a pale mist-blue editorial background, restrained Japanese decorative motifs, and elegant typography.
 ```
+
+## Example 5 — Moss Stream with a Real Bookmark Reference
+
+### Input
+Scenic image:
+- clear shallow woodland stream
+- small cascading waterfall
+- moss-covered rocks
+- bare slender trees
+- scattered snow
+- wooden footbridge at the far left
+
+Product reference:
+- one slim rectangular metal bookmark selected from a photo showing three bookmarks
+- brushed silver frame
+- blue braided cord
+- openwork / enamel construction
+
+Style / layout reference:
+- pale-blue Japanese editorial poster
+- left scenery / right bookmark split
+- calm premium souvenir finish
+
+Test labels:
+`MOSS STREAM` and `HOKKAIDO, JAPAN`
+
+### Stability parameters
+
+- Canvas: `3:4`
+- Split: `60% scenery / 40% bookmark`
+- Products: `1 bookmark / 1 cord`
+- Scenic facts preserved: `5`
+- Japanese poetic phrase: `off`
+- Extra text: `none`
+- Bookmark treatment: `brushed silver + blue enamel + moss-green relief`
+
+### Expected composition
+
+Left: the supplied stream remains recognizable, with the cascades and mossy rocks as the anchor.
+
+Right: one centered, manufacturable silver bookmark translates the stream into simplified water, rock, branch, and cascade motifs. The three-bookmark reference must not become three products in the output.
