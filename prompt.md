@@ -30,7 +30,7 @@ Assign the uploaded images explicitly before interpreting them:
 - **Image B — product reference:** the only authority for one bookmark's physical form, material, proportions, cord, and construction. If it contains several bookmarks, choose one and generate exactly one.
 - **Image C — style/layout reference:** the only authority for split layout, spacing, typography hierarchy, background treatment, and finish. Do not copy its landmark artwork or text.
 
-Use an exact 3:4 portrait canvas (for example, 1086×1448; never 2:3, 4:5, or square), a fixed 60% left / 40% right split, one centered hero bookmark, and one hanging cord. Preserve three to five observable facts from Image A. Keep typography to the exact labels supplied by the user; if a location is not confirmed, omit the location label. Do not invent text.
+Use an exact 3:4 portrait canvas (for example, 1086×1448; never 2:3, 4:5, or square), a fixed 60% left / 40% right split, one centered hero bookmark, and one hanging cord. Preserve three to five observable facts from Image A. Keep generated typography to the exact labels supplied by the user; if a location is not confirmed, omit the location label. Do not invent text. Source-native landmark signage may remain when it is visibly part of Image A and materially helps identify the landmark; do not add unrelated branding or pseudo-text.
 
 ### Left side — scenery
 
@@ -134,7 +134,7 @@ The result should feel suitable for a premium tourism campaign, collectible trav
 
 ### Final rejection checks
 
-Reject and regenerate if any of these occur: the canvas is not exact 3:4, more than one bookmark, a direct photo crop inside the bookmark, a changed or generic scenic subject, copied artwork from a reference image, an invented place name, pseudo-text, logo, watermark, or a layout that is not a clear left-scenery/right-bookmark split. Repeat the exact ratio instruction on the retry.
+Reject and regenerate if any of these occur: the canvas is not exact 3:4, more than one bookmark, a direct photo crop inside the bookmark, a changed or generic scenic subject, copied artwork from a reference image, an invented place name, generated pseudo-text, unrelated branding, watermark, or a layout that is not a clear left-scenery/right-bookmark split. Source-native landmark signage is allowed when it comes from the scenic source. Repeat the exact ratio instruction on the retry.
 
 
 ---

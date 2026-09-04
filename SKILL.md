@@ -53,9 +53,9 @@ Apply these controls whenever more than one image is supplied:
 4. Keep the output geometry fixed at an exact 3:4 portrait canvas and a 60/40 left-scenery/right-bookmark split unless the user explicitly requests another ratio. Treat 2:3, 4:5, and square outputs as failures.
 5. Use one centered hero bookmark with one cord. Do not generate a product collection, flat-lay, or collage.
 6. Treat text as a closed set. Use only caller-supplied labels. If the user has not supplied a confirmed location name, omit the location label instead of inventing one.
-7. Disable the optional poetic Japanese phrase by default when exact text matters. Never add pseudo-text, logos, watermarks, or unrelated place names.
+7. Disable the optional poetic Japanese phrase by default when exact text matters. Never add pseudo-text, unrelated branding, watermarks, or unrelated place names. Text or signage that is visibly part of the scenic source may remain when it is necessary to preserve a recognizable landmark.
 
-Before finalizing, check the image against the role assignments and reject it if the canvas is not 3:4, the bookmark copies a reference photo, the scenery changes identity, more than one bookmark appears, or extra text is present. If the canvas ratio is wrong, regenerate once with the ratio lock repeated verbatim before considering any pixel-level normalization.
+Before finalizing, check the image against the role assignments and reject it if the canvas is not 3:4, the bookmark copies a reference photo, the scenery changes identity, more than one bookmark appears, or unrelated generated text is present. Source-native landmark signage is allowed; invented or decorative pseudo-text is not. If the canvas ratio is wrong, regenerate once with the ratio lock repeated verbatim before considering any pixel-level normalization.
 
 ## Composition
 
@@ -206,6 +206,7 @@ If typography generation is unreliable:
 - minimize extra decorative text
 - do not invent a location name, country/region, or unrelated place name
 - when no confirmed location label is available, use no destination text rather than a guessed label
+- allow source-native landmark signage only when it is visibly present in the scenic source and supports recognition
 
 ## Quality checklist
 
