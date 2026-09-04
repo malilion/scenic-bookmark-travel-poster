@@ -71,7 +71,8 @@ scenic-bookmark-travel-poster/
 ├── prompt.md
 ├── examples.md
 └── assets/
-    └── otaru-example.png
+    ├── otaru-example.png
+    └── moss-stream-example.png
 ```
 
 ## Recommended usage

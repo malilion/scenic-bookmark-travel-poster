@@ -40,6 +40,23 @@ If a bookmark reference image is provided:
 - do not copy its exact artwork
 - design a new bookmark based on the scenic image
 
+## Stability controls
+
+Apply these controls whenever more than one image is supplied:
+
+1. Assign every image one role before generating:
+   - **scenic source:** controls the destination, landscape, landmark features, and palette
+   - **product reference:** controls only the physical bookmark form, material, cord, and construction
+   - **style / layout reference:** controls only the poster grid, visual hierarchy, spacing, and finish
+2. If the product reference shows multiple bookmarks, select the clearest single bookmark and generate exactly one product.
+3. Preserve three to five concrete scenic facts in the prompt. For example: `moss-covered rocks`, `small cascades`, `bare trees`, `patches of snow`, and `wooden footbridge`.
+4. Keep the output geometry fixed at an exact 3:4 portrait canvas and a 60/40 left-scenery/right-bookmark split unless the user explicitly requests another ratio. Treat 2:3, 4:5, and square outputs as failures.
+5. Use one centered hero bookmark with one cord. Do not generate a product collection, flat-lay, or collage.
+6. Treat text as a closed set. Use only caller-supplied labels. If the user has not supplied a confirmed location name, omit the location label instead of inventing one.
+7. Disable the optional poetic Japanese phrase by default when exact text matters. Never add pseudo-text, logos, watermarks, or unrelated place names.
+
+Before finalizing, check the image against the role assignments and reject it if the canvas is not 3:4, the bookmark copies a reference photo, the scenery changes identity, more than one bookmark appears, or extra text is present. If the canvas ratio is wrong, regenerate once with the ratio lock repeated verbatim before considering any pixel-level normalization.
+
 ## Composition
 
 Use a split vertical poster:
@@ -187,7 +204,8 @@ Use the exact user-provided location and country/region.
 If typography generation is unreliable:
 - prioritize clean readable English destination text
 - minimize extra decorative text
-- do not invent unrelated place names
+- do not invent a location name, country/region, or unrelated place name
+- when no confirmed location label is available, use no destination text rather than a guessed label
 
 ## Quality checklist
 
