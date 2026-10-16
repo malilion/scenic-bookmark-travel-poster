@@ -100,3 +100,10 @@ These examples use the same left-scenery / right-bookmark system and show how th
 5. Generate one polished 3:4 poster.
 
 See `SKILL.md` for execution rules and `prompt.md` for the reusable generation prompt.
+
+## License
+
+- Code (if any): [MIT](LICENSE).
+- Prompts, text and images: [CC BY 4.0](LICENSE-CONTENT), © 2026 Malilion.
+
+授權：程式碼採 MIT；提示詞、文字與圖片採 CC BY 4.0（見 LICENSE-CONTENT）。
